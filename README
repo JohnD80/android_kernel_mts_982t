@@ -1,12 +1,15 @@
-Kernel Source 3.4.67 for MTS982T (Alcatel 4033X/D)  
+Thanks to Serinity for the bring up to Kitkat.
+
+Kernel Source 3.4.67 for MTS982T (Alcatel 4033X/D)
 
 
 The Project config file is in /mediatek/config/mts982t/ProjectConfig.mk
 
-#BUILDING
+# Building 
 
-You need compiler like GCC 4.7 or a custom toolchain like linaro and a 64 bit Linux based OS (BBQLinux,Ubuntu)
+* You need compiler like GCC 4.7 or a custom toolchain like linaro and a 64 bit Linux based OS (BBQLinux,Ubuntu)
 
-Command for build ./makeMtk mts982t n k
+* Command for build ./makeMtk mts982t n k
 
-After finish building, you can find the kernel in /out/target/product/mts982t/obj/KERNEL_OBJ/arch/arm/boot/zImage
+* After finish building, you can find the kernel in /out/target/product/mts982t/obj/KERNEL_OBJ/arch/arm/boot/zImage.
+
