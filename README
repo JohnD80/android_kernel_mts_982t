@@ -1,11 +1,15 @@
-SeriniTY kernel source 3.4.67 for MTS 982T (Alcatel OT4033X/D)
+Thanks to Serinity for the bring up to Kitkat.
 
-Вам нужен компилятор версии 4.7, 64х Linuх-подобная система. 
-Проект конфиг лежит в /mediatek/config/mts982t/ProjectConfig.mk
-Команда для сборки - ./makeMtk mts982t n k
-После удачной сборки ядро лежит по пути /out/target/product/mts982t/obj/KERNEL_OBJ/arch/arm/boot/zImage
+Kernel Source 3.4.67 for MTS982T (Alcatel 4033X/D)
 
-You need compiler 4.7 and 64x bit Linux based OS
-Project config in /mediatek/config/mts982t/ProjectConfig.mk
-Command for build ./makeMtk mts982t n k
-After finish building, you can found kernel in /out/target/product/mts982t/obj/KERNEL_OBJ/arch/arm/boot/zImage
+
+The Project config file is in /mediatek/config/mts982t/ProjectConfig.mk
+
+# Building 
+
+* You need compiler like GCC 4.7 or a custom toolchain like linaro and a 64 bit Linux based OS (BBQLinux,Ubuntu)
+
+* Command for build ./makeMtk mts982t n k
+
+* After finish building, you can find the kernel in /out/target/product/mts982t/obj/KERNEL_OBJ/arch/arm/boot/zImage.
+
