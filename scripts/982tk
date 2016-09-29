@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd /home/kirito9/android/kernel/mts982t/
+export CROSS_COMPILE=~/android/toolchains/arm-eabi-4.7/bin/arm-eabi-
+./makeMtk mts982t n k
