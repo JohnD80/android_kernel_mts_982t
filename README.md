@@ -20,6 +20,8 @@ The Project config file is in /mediatek/config/mts982t/ProjectConfig.mk
       *After finish building, you can find the kernel in /out/target/product/mts982t/obj/KERNEL_OBJ/arch/arm/boot/zImage.
       
       *Or go to the scripts folder and type sh 982t to run the compile script. NOTE: Change "username" to your username.
+      
+      *Edit script accordingly
 
 
  
@@ -28,3 +30,5 @@ The Project config file is in /mediatek/config/mts982t/ProjectConfig.mk
  
       
       *Go to the scripts folder and type sh 982tb in the terminal
+      
+      *Edit script accordingly
