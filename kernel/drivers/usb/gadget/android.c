@@ -82,10 +82,10 @@ static const char longname[] = "Gadget Android";
 #define ADVMETA_ID		0x0005 //ums+adb+acm
 
 /* Default manufacturer and product string , overridden by userspace */
-#define MANUFACTURER_STRING "MediaTek"
+#define MANUFACTURER_STRING "ALCATEL"
 /*#define PRODUCT_STRING "MT65xx Android Phone"*/
 //#define PRODUCT_STRING "ALCATEL PIXI 3(4)" //modify by fangjie for USB driver name.
-#define PRODUCT_STRING "ALCATEL ONETOUCH PIXI 3 (4)" //PR837223  modify by fangjie for USB driver name.
+#define PRODUCT_STRING "ALCATEL Android Phone" //PR837223  modify by fangjie for USB driver name.
 
 #define USB_LOG "USB"
 
