@@ -85,7 +85,7 @@ static const char longname[] = "Gadget Android";
 #define MANUFACTURER_STRING "ALCATEL"
 /*#define PRODUCT_STRING "MT65xx Android Phone"*/
 //#define PRODUCT_STRING "ALCATEL PIXI 3(4)" //modify by fangjie for USB driver name.
-#define PRODUCT_STRING "ALCATEL Android Phone" //PR837223  modify by fangjie for USB driver name.
+#define PRODUCT_STRING "ALCATEL ONE TOUCH POP C2" //PR837223  modify by fangjie for USB driver name.
 
 #define USB_LOG "USB"
 
