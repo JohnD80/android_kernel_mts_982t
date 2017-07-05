@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-cd ~/android/kernel/982t
-export CROSS_COMPILE=~/android/kernel/982t/toolchains/arm-eabi-4.7/bin/arm-eabi-
-#./makeMtk mts982t n k
-./makeMtk -t -o=TARGET_BUILD_VARIANT=user mts982t n k
